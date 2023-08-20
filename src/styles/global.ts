@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
   * {
@@ -9,6 +9,6 @@ export const GlobalStyle = createGlobalStyle`
 
   body, input, textarea, button {
     font: 400 1rem 'Nunito', sans-serif;
-    background: ${props => props.theme['base-background']};
+    background: ${(props) => props.theme['base-background']};
   }
 `
