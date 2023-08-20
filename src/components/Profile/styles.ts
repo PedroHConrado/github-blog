@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const ProfileContainer = styled.div`
   display: flex;
@@ -7,14 +7,14 @@ export const ProfileContainer = styled.div`
   width: 54rem;
   height: 13.25rem;
   border-radius: 0.625rem;
-  background: ${props => props.theme["base-profile"]};
-  box-shadow: 0px 2px 28px 0px rgba(0, 0, 0, 0.20);
+  background: ${(props) => props.theme['base-profile']};
+  box-shadow: 0px 2px 28px 0px rgba(0, 0, 0, 0.2);
 
   margin-top: -5.5rem;
 
   a {
     text-decoration: none;
-    color: ${props => props.theme.blue};
+    color: ${(props) => props.theme.blue};
     font-weight: 700;
     font-size: 0.75rem;
 
@@ -45,27 +45,26 @@ export const ProfileImg = styled.img`
   height: 148px;
   border-radius: 0.5rem;
   margin-left: 2.5rem;
-
 `
 export const ProfileName = styled.span`
   font-size: 1.5rem;
   font-weight: 700;
-  color: ${props => props.theme["base-title"]};
+  color: ${(props) => props.theme['base-title']};
 `
 export const ProfileBio = styled.span`
   font-size: 1rem;
   margin-bottom: 1rem;
 
-  color: ${props => props.theme["base-text"]};
+  color: ${(props) => props.theme['base-text']};
 `
 export const ProfileGithubInformation = styled.div`
   display: flex;
   align-items: center;
   gap: 0.5rem;
 
-  color: ${props => props.theme["base-label"]};
+  color: ${(props) => props.theme['base-label']};
 
   span {
-    color: ${props => props.theme["base-subtitle"]};
+    color: ${(props) => props.theme['base-subtitle']};
   }
 `

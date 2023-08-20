@@ -1,7 +1,5 @@
-import { SearchInput } from "./styles";
+import { SearchInput } from './styles'
 
 export function Search() {
-  return (
-    <SearchInput placeholder="Buscar conteúdo" />
-  )
+  return <SearchInput placeholder="Buscar conteúdo" />
 }

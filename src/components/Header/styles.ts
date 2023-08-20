@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 import imgHeader from '../../assets/Cover.png'
 
 export const HeaderContainer = styled.header`

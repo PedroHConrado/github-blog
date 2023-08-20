@@ -1,10 +1,21 @@
-import { ProfileBio, ProfileContainer, ProfileContent, ProfileGithubInformation, ProfileImg, ProfileInformation, ProfileName } from "./styles";
+import {
+  ProfileBio,
+  ProfileContainer,
+  ProfileContent,
+  ProfileGithubInformation,
+  ProfileImg,
+  ProfileInformation,
+  ProfileName,
+} from './styles'
 import profileImg from '../../assets/goku.jpg'
-import { NavLink } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowUpRightFromSquare, faBuilding, faUserGroup } from "@fortawesome/free-solid-svg-icons";
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
-
+import { NavLink } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faArrowUpRightFromSquare,
+  faBuilding,
+  faUserGroup,
+} from '@fortawesome/free-solid-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 export function Profile() {
   return (
@@ -18,8 +29,10 @@ export function Profile() {
             <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
           </NavLink>
         </ProfileInformation>
-        <ProfileBio>Tristique volutpat pulvinar vel massa, pellentesque egestas. 
-          Eu viverra massa quam dignissim aenean malesuada suscipit. Nunc, volutpat pulvinar vel mass.
+        <ProfileBio>
+          Tristique volutpat pulvinar vel massa, pellentesque egestas. Eu
+          viverra massa quam dignissim aenean malesuada suscipit. Nunc, volutpat
+          pulvinar vel mass.
         </ProfileBio>
         <footer>
           <ProfileGithubInformation>
@@ -36,7 +49,6 @@ export function Profile() {
           </ProfileGithubInformation>
         </footer>
       </ProfileContent>
-      
     </ProfileContainer>
   )
 }
