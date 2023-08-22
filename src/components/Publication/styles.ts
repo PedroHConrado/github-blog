@@ -14,29 +14,34 @@ export const PublicationContainer = styled.div`
 
   div {
     display: flex;
+    align-items: baseline;
   }
 `
 export const Title = styled.span`
-  width: 283px;
+  flex: 1;
   color: ${(props) => props.theme['base-title']};
 
   font-size: 20px;
   font-weight: 700;
-  line-height: 160%;
+`
+export const CreatedAt = styled.span`
+  width: max-content;
+  color: ${(props) => props.theme['base-span']};
+
+  font-size: 14px;
 `
 export const Description = styled.span`
-  overflow: hidden;
   color: ${(props) => props.theme['base-text']};
-  text-overflow: ellipsis;
 
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 160%;
-`
-export const CreatedAt = styled.span`
-  color: ${(props) => props.theme['base-span']};
 
-  font-size: 14px;
-  line-height: 160%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
 `
+
