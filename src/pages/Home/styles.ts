@@ -37,4 +37,5 @@ export const ListPublication = styled.div`
   justify-content: center;
 
   margin-top: 48px;
+  margin-bottom: 14rem;
 `
