@@ -7,4 +7,8 @@ export const PostContentContainer = styled.div`
   color: ${(props) => props.theme['base-text']};
   font-size: 16px;
   line-height: 160%;
+
+  img {
+    max-width: 100%;
+  }
 `
